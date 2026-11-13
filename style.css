@@ -1,0 +1,111 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f5ff;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    color: #1746a2;
+    font-size: 32px;
+}
+
+h2 {
+    color: #222;
+}
+
+p {
+    color: #555;
+    font-size: 18px;
+}
+
+li {
+    list-style: none;
+    padding: 8px;
+}
+
+button {
+    background-color: #1746a2;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+
+.contact-btn {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    padding: 14px 22px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+
+.navbar {
+    background: #1746a2;
+    color: white;
+    padding: 15px;
+}
+
+.navbar h2 {
+    color: white;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+}
+
+.hero {
+    padding: 50px 10px;
+    background: #dce7ff;
+}
+
+section {
+    padding: 30px 10px;
+}
+
+.service-card {
+    background: white;
+    padding: 20px;
+    margin: 12px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #ccc;
+}
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media (max-width: 600px) {
+    .navbar a {
+        display: inline-block;
+        margin: 6px;
+        font-size: 14px;
+    }
+
+    .hero {
+        padding: 35px 10px;
+    }
+
+    .hero h1 {
+        font-size: 25px;
+    }
+
+    .service-card {
+        width: auto;
+    }
+}
